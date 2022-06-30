@@ -1,0 +1,21 @@
+1.- Cambie el titulo de Inicio | Bryan Duran por Bryan Duran 
+    coloqué los siguientes keywords para el index
+    <meta name="description" content="Realizador audiovisual,con experiencia en spot publicitarios, eventos sociales, edición de vídeo, motion graphics.">
+    <meta name="keywords" content="spot, audiovisual, publicidad, video matrimonio, motion graphics">
+
+2.-Modifiqué el titulo por Portfolio| Bryan Duran 
+    y los siguites keywords 
+    <meta name="description" content="Trabajos audiovisuales que relice en lo que llevo de carrera como realizador">
+    <meta name="keywords" content="spot, videoclip, graficos, fotografía, animación, sonido">
+    
+3.-Agregue las siguietnes etiquetas
+    <meta name="description" content="Servicios audiovisuales, fotografía de producto, videos publicitarios, edición de video">
+    <meta name="keywords" content="fotografía, sesiones, vídeo publicitario, animación, intros, edición, spot">
+
+4.-Agregue las siguiente etiquetas
+    <meta name="description" content="Preguntas frecuentes sobre mis trabajos o sobre los servicios que brindamos">
+    <meta name="keywords" content="preguntas frecuentes, video publicitario, ">
+
+5.-Agregue las siguiente etiquetas
+   <meta name="description" content="Contactos para tener una mayor información">
+    <meta name="keywords" content="audiovisuales, realizacion videos, videoclip, fotografía, edicion video, motion graphics">     

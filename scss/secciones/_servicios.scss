@@ -1,0 +1,109 @@
+.titulo-servicio{
+    background-color: (#494949);
+    font-family: $Poppins;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    
+    
+}
+
+
+
+.servicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 180px;
+    
+    &__card{
+        
+        width: 525px;
+        border-radius: 10px;
+        margin: 1rem;
+        
+    }
+    img{
+        border-radius: 10px 10px 0 0;
+    }
+    &__texto{
+        font-family: $Poppins;
+        font-weight: bold;
+        background-color: #d9d9d9;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+    h3{
+        font-family: $Poppins;
+        font-weight: bold;
+        text-align: center;
+        background-color: #494949;
+        color: whitesmoke;
+        
+    }
+}
+
+.posicionServicios{
+    position: relative;
+    top: 401px;
+}
+
+@media(max-width: 768px){
+    .servicio{
+        flex-direction: column;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        &__card{
+         margin: 0;
+        }
+        img{
+            position: relative;
+            right: 16px;
+            top: 18px;
+
+        }
+        
+        
+    }
+    .posicionServicios{
+        top: 0
+    }
+    .card-ultima{
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media(max-width: 576px){
+    .servicio{
+        &__card{
+            width: 400px;
+        }
+        img{
+            width: 400px;
+        }
+    }
+}
+
+@media(max-width: 375px){
+    .servicio{
+        &__card{
+            width: 300px;
+        }
+        img{
+            width: 300px;
+        }
+        
+    }
+    .titulo-servicio{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}

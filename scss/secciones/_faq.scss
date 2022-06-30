@@ -1,0 +1,70 @@
+h1{
+    display: inline-block;
+    background-color: #d9d9d9;
+    color: whitesmoke;
+    padding: .5rem;
+    font-family: $Poppins;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+h4{
+    font-family: $Poppins;
+    font-size: 1.3rem;
+    background-color: #494949;
+    color: whitesmoke;
+    margin-left: 2rem;
+    width: 300px;
+    padding: .3rem  ;
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: flex;
+    
+    
+
+}
+
+
+
+.ultimo-parrafo{
+    margin-bottom: 2rem;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__textofaq{
+        font-family: $Poppins;
+    margin-left: 2rem;
+    width: 700px;
+    background-color: #d9d9d9;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: .3rem;
+    }
+}
+
+
+
+@media(max-width: 576px){
+    p{
+        width: 450px;
+    }
+}
+
+@media(max-width: 375px){
+    p{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+}

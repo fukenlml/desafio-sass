@@ -3,5 +3,11 @@
     padding: 0;
 }
 @import './variables/tipografia';
-@import './secciones/index';
+@import './variables/extend.scss';
+@import './variables/mixins';
 
+@import './secciones/index';
+@import './secciones/portfolio';
+@import './secciones/servicios';
+@import './secciones/faq';
+@import './secciones/contacto';

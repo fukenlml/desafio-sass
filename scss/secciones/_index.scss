@@ -15,14 +15,8 @@
             text-decoration: none;
         }
 
-        li {
-            padding: .3rem;
-            list-style: none;
-            list-style-type: none;
-            text-decoration: none;
-            font-family: $Poppins;
-            font-weight: bold;
-
+        li{
+            @extend %menu; 
         }
 
         li:hover{
@@ -142,12 +136,16 @@
 @media (max-width: 375px){
     .header{
         flex-direction: column;
+        
         &__ul{
             font-size: 13px;
         }
     }
 
+   
     .main{
+        position: relative;
+        top: 30px;
         &__texto{
             width: 340px;
             text-align: center;

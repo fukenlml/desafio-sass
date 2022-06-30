@@ -3,6 +3,14 @@
   margin: 0;
   padding: 0; }
 
+.header__ul li {
+  padding: .3rem;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold; }
+
 .header {
   background-color: #d9d9d9;
   display: flex;
@@ -16,13 +24,6 @@
     gap: 1rem; }
     .header__ul a {
       text-decoration: none; }
-    .header__ul li {
-      padding: .3rem;
-      list-style: none;
-      list-style-type: none;
-      text-decoration: none;
-      font-family: "Poppins", sans-serif;
-      font-weight: bold; }
     .header__ul li:hover {
       transform: scale(1.3);
       background-color: red;
@@ -98,11 +99,14 @@
     flex-direction: column; }
     .header__ul {
       font-size: 13px; }
-  .main__texto {
-    width: 340px;
-    text-align: center; }
-  .main__titulo {
-    text-align: center; }
+  .main {
+    position: relative;
+    top: 30px; }
+    .main__texto {
+      width: 340px;
+      text-align: center; }
+    .main__titulo {
+      text-align: center; }
   .footer__iconos {
     display: none; }
   .footer__contactos {
@@ -110,3 +114,216 @@
   .footer__logo {
     position: relative;
     left: 160px; } }
+
+.portfolio__img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap; }
+
+.portfolio img {
+  border-radius: 10px;
+  box-shadow: 2px 5px 12px; }
+
+.portfolio__img2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap; }
+
+.footerPortfolio {
+  position: relative;
+  top: 70px; }
+
+@media (max-width: 768px) {
+  img {
+    margin: 1rem; }
+  .footerPortfolio {
+    top: 0px; } }
+
+@media (max-width: 576px) {
+  img {
+    height: 250px; }
+  .portfolio__img2 {
+    margin-top: 0rem; } }
+
+@media (max-width: 375px) {
+  img {
+    height: 150px; }
+  .portfolio__img2 {
+    margin-top: 0rem; } }
+
+.titulo-servicio {
+  background-color: #494949;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem; }
+
+.servicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 180px; }
+  .servicio__card {
+    width: 525px;
+    border-radius: 10px;
+    margin: 1rem; }
+  .servicio img {
+    border-radius: 10px 10px 0 0; }
+  .servicio__texto {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: #d9d9d9;
+    border-radius: 0 0 10px 10px;
+    text-align: center; }
+  .servicio h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #494949;
+    color: whitesmoke; }
+
+.posicionServicios {
+  position: relative;
+  top: 401px; }
+
+@media (max-width: 768px) {
+  .servicio {
+    flex-direction: column;
+    top: 0;
+    align-items: center;
+    justify-content: center; }
+    .servicio__card {
+      margin: 0; }
+    .servicio img {
+      position: relative;
+      right: 16px;
+      top: 18px; }
+  .posicionServicios {
+    top: 0; }
+  .card-ultima {
+    margin-bottom: 1rem; } }
+
+@media (max-width: 576px) {
+  .servicio__card {
+    width: 400px; }
+  .servicio img {
+    width: 400px; } }
+
+@media (max-width: 375px) {
+  .servicio__card {
+    width: 300px; }
+  .servicio img {
+    width: 300px; }
+  .titulo-servicio {
+    font-size: 2rem;
+    margin-top: 2rem; } }
+
+h1 {
+  display: inline-block;
+  background-color: #d9d9d9;
+  color: whitesmoke;
+  padding: .5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 2rem; }
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  background-color: #494949;
+  color: whitesmoke;
+  margin-left: 2rem;
+  width: 300px;
+  padding: .3rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex; }
+
+.ultimo-parrafo {
+  margin-bottom: 2rem; }
+
+.faq {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .faq__textofaq {
+    font-family: "Poppins", sans-serif;
+    margin-left: 2rem;
+    width: 700px;
+    background-color: #d9d9d9;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: .3rem; }
+
+@media (max-width: 576px) {
+  p {
+    width: 450px; } }
+
+@media (max-width: 375px) {
+  p {
+    width: 300px; }
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 3rem; } }
+
+.contacto {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 3rem; }
+  .contacto__form {
+    width: 400px;
+    background-color: #ced4da;
+    padding: 30px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 6px 10px 30px; }
+  .contacto__titulo {
+    text-align: center;
+    color: white; }
+  .contacto label {
+    color: white; }
+  .contacto__cajas {
+    width: 100%;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .contacto__boton {
+    width: 100%;
+    background-color: #43ff6f;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; }
+  .contacto__boton:hover {
+    transform: scale(1.1);
+    background-color: #30b04e; }
+
+.footerContacto {
+  position: relative;
+  top: 210px; }
+
+@media (max-width: 375px) {
+  .contacto__form {
+    width: 300px; }
+  .footerContacto {
+    top: 0px; } }

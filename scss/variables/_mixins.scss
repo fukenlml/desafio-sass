@@ -1,0 +1,10 @@
+@mixin botonera($colorBoton){
+    width: 100%;
+    background-color: $colorBoton;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    font-family: $Poppins;
+    font-weight: bold;
+}

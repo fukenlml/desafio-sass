@@ -1,0 +1,60 @@
+.contacto{
+    font-family: $Poppins;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    &__form{
+        width: 400px;
+        background-color: #ced4da;
+        padding: 30px;
+        border-radius: 4px;
+        margin: auto;
+        margin-top: 70px;
+        
+    
+        box-shadow: 6px 10px 30px;
+    }
+        
+    &__titulo{
+        text-align: center;
+        color: white;
+
+    }
+    label{
+        color: white;
+    }
+    &__cajas{
+        width: 100%;
+        background-color: white;
+        border: solid 1px rgb(255, 255, 255);
+        border-radius: 4px;
+        
+        font-size: 16px;
+        margin-bottom: 10px;
+        
+    }
+    &__boton{
+        @include botonera(#43ff6f);
+    }
+    &__boton:hover{
+        transform: scale(1.1);
+        background-color: #30b04e;
+    }
+    }
+
+.footerContacto{
+    position: relative;
+    top: 210px;
+}
+
+
+@media(max-width: 375px){
+    .contacto{
+        &__form{
+            width: 300px;
+        }
+    }
+    .footerContacto{
+        top: 0px;
+    }
+
+}
