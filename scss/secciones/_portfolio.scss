@@ -1,4 +1,10 @@
 .portfolio{
+    &__video{
+        display: flex;
+        justify-content: center;      
+        margin-top: 1.2rem;  
+    }
+   
     &__img{
         display: flex;
         justify-content: space-around;
@@ -19,7 +25,10 @@
         margin-bottom: 2rem;
         flex-wrap: wrap;
     }
+   
 }
+
+
 
 .footerPortfolio{
     position: relative;
